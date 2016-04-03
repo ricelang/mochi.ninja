@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "header.html" . }}
+    {{ range where .Data.Pages "Title" "home" }}
+      <header class="header">
+        <section class="container">
+          <h2>{{ .Description }}</h2>
+        </section>
+      </header>
+
+      <div class="container">
+        <div class="row">
+          <div class="column column-50 ">
+            <h4>Overview</h4>
+            <p>Mochi Lang is a Lisp dialect, trying to follow Clojure syntax,
+            that compiled down to Go lang. At this point, it doesn't looks like
+            Clojure yet</p>
+
+
+            <h4>Goal</h4>
+            <ul>
+              <li>Just another Go lang fronend language</li>
+              <li>Everything is expression</li>
+              <li>Pattern Matching</li>
+              <li>TCO</li>
+            </ul>
+          </div>
+          <div class="column column-50 ">
+            <h4>Hello world</h4>
+            <p>
+            Here's a simple "Hello, World" program written in Ark. You can find more complex examples on our organisations repository, like this one
+            </p>
+            <pre><code>(ns main
+  "fmt")
+
+(defn main
+  (fmt/Println "Hello, I'm Mochi"))</code></pre>
+          </div>
+        </div>
+      </div>
+
+    {{ end }}
+    {{ partial "footer.html" . }}
+  </body>
+
+</html>
+
