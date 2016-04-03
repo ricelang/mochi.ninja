@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#f4f5f6">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#f4f5f6">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="http://mochi.ninja">
+    <meta name="description" content="Mochi Lang">
+    <title>Mochi Lang</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="https://milligram.github.io/css/milligram.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="https://milligram.github.io/img/favicon.ico">
+  </head>
+
+  <body>
+    <main class="wrapper">
+
+<nav class="navigation">
+  <section class="container">
+
+    <a class="navigation-title" href="/">
+      <img class="img" src="/img/logo.svg" height="30" alt="Mochi Lang" title="Mochi Lang">
+      <h1 class="title">Mochi Lang</h1>
+    </a>
+
+    <ul class="navigation-list float-right">
+      <li class="navigation-item">
+        <a class="navigation-link" href="#" data-popover>Play</a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="/page/about" data-popover>About</a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="//github.com/mochi-lang" data-popover>Github</a>
+      </li>
+    </ul>
+
+  </section>
+</nav>
+
+    
+      <header class="header">
+        <section class="container">
+          <h2>An experimental Lisp dialect for Golang.</h2>
+        </section>
+      </header>
+
+      <div class="container">
+        <div class="row">
+          <div class="column column-50 ">
+            <h4>Overview</h4>
+            <p><p>Mochi Lang is a Lisp dialect, trying to follow Clojure syntax,
+            that compiled down to Go lang. At this point, it doesn&rsquo;t looks like
+            Clojure yet.</p>
+
+<p>It isn&rsquo;t a language on its own, It&rsquo;s a frontend for Go lang, at the bottom
+level, Go lang is invoked to compile your code.</p>
+</p>
+
+            <h4>Goal</h4>
+            <ul>
+              <li>Just another Go lang fronend language</li>
+              <li>Everything is expression</li>
+              <li>Pattern Matching</li>
+              <li>TCO</li>
+            </ul>
+          </div>
+          <div class="column column-50 ">
+            <h4>Hello world</h4>
+            <p>
+            Here's a simple "Hello, World" program written in Ark. You can find more complex examples on our organisations repository, like this one
+            </p>
+            <pre><code>(ns main
+  "fmt")
+
+(defn main
+  (fmt/Println "Hello, I'm Mochi"))</code></pre>
+          </div>
+        </div>
+      </div>
+
+    
+    
+<section class="container" id="contributing">
+  <h5 class="title">Contributing</h5>
+  <p>Want to contribute? Create an issue to discuss it, if I don't respond in 24 hours, send me an email, then create a PR, no test is needed at this point, just send PR.</p>
+</section>
+
+<footer class="footer">
+<section class="container">
+<p>Coded with ♥ for my daughter by <a target="blank" href="http://mochi.ninja" title="Vinh">kureikain</a>. <a target="blank" href="https://github.com/mochi-lang/mochi.ninja" title="MIT License">Source</a>.</p>
+</section>
+</footer>
+
+</main>
+
+  </body>
+
+</html>
+
