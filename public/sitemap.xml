@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://mochi.ninja/</loc>
+    <lastmod>2016-04-03T11:26:11-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mochi.ninja/page/about/</loc>
+    <lastmod>2016-04-03T11:26:11-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mochi.ninja/page/home/</loc>
+    <lastmod>2016-04-02T09:10:59-07:00</lastmod>
+  </url>
+  
+</urlset>

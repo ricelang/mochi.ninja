@@ -1,0 +1,3 @@
+baseurl = "http://mochi.ninja/"
+languageCode = "en-us"
+title = "Mochi Lang - Lisp flavored Go lang"
